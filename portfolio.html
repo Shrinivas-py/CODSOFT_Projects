@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,900&display=swap" rel="stylesheet">
+     <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(2, 2, 36);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color: rgb(12, 12, 53);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    transition-delay: 50ms;
+    opacity: 1;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 60px 84px;
+}
+
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 120px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+    margin: 70px 0;
+}
+
+.rightSection img {
+    width: 90%;
+    margin: 50px 0;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.purple {
+    color: rgb(114, 43, 180)
+}
+
+.text_gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(132, 0, 255);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+}
+
+.box {
+    background-color: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secondSection .vertical {
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+
+.image_top {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -35px;
+    left: -15px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 80px;
+    color: gray;
+    width: 150px;
+    font-size: 13px;
+}
+
+.third_section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+.box_2 {
+    background-color: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.third_section .vertical_2 {
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+.image_top2 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -35px;
+    left: -15px;
+}
+.vertical_title2{
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+.vertical_desc2 {
+    position: relative;
+    top: 80px;
+    color: gray;
+    width: 150px;
+    font-size: 13px;
+}
+.third_section h1 {
+    font-size: 2rem;
+}
+
+.fourth_section {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.box_3 {
+    background-color: white;
+    width: 76vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.image_top3 {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -35px;
+    left: -25px;
+}
+.fourth_section h1 {
+    font-size: 2rem;
+}
+.fourth_section .vertical_2{
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin: 0 140px;
+}
+a {
+    text-decoration: none;
+    color: purple;
+}
+
+footer {
+    background-color: #1a1a20;
+}
+.footer {
+    display: flex;
+    padding: 25px 120px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer > div {
+    width: 300px;
+}
+
+footer .footer_rights {
+    text-align: center;
+    color: gray;
+    padding: 15px;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+    
+}
+
+#linkedin {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+}
+
+#linkedin:hover {
+    opacity: 1;
+}
+     </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Shrinivas's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hello, My Name is <span class="purple">Shrinivas</span>
+                <div>I am an</div>
+                <span id="element">
+                    <div>Web Developer</div>
+                </span>
+            </div>
+            <div class="rightSection">
+                <img src="IMG-20240821-WA0006.jpg">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text_gray">What I have done so far</span>
+            <h1>Open Source Contributions</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="ggsoc.jpeg" class="image_top">
+                    <div class="vertical-title">
+                        Girl Script Summer of Code (Oct-Nov2024)
+                    </div>
+                    <div class="vertical-desc">
+                        An Open Source Contribution.
+                        Helped in improving the skills, learnt about Version Controls and GitHub!
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img src="hackt.png" class="image_top">
+                    <div class="vertical-title">
+                        Hacktoberfest (Oct2024)
+                    </div>
+                    <div class="vertical-desc">
+                        An Open Source Contribution specifically conducted in the month of October.
+                        Learnt about Pull&Merge Requests on GitHub and improved my technical skills in Javascript.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third_section">
+            <h1>Internships</h1>
+            <div class="box_2">
+                <div class="vertical_2">
+                    <img src="codsoft.jpeg" class="image_top2">
+                    <div class="vertical_title2">
+                        CodSoft (Nov2024)
+                    </div>
+                    <div class="vertical_desc2">
+                        I'm Excited to share that I got selected as an Web and Python Developer Intern at CodSoft.
+                    </div>
+                </div>
+                <div class="vertical_2">
+                    <img src="intern.jpeg" class="image_top2">
+                    <div class="vertical_title2">
+                        InternPe (Sept 2024)
+                    </div>
+                    <div class="vertical_desc2">
+                        I'm Excited to share that I got selected as an Javascript Developer Intern at InternPe.
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fourth_section">
+            <h1>Projects</h1>
+            <div class="box_3">
+                <div class="vertical_2">
+                    <img src="photo.jpg" class="image_top3">
+                    <div class="vertical_title2">
+                        Photography Page
+                    </div>
+                    <div class="vertical_desc2">
+                        I created this simple photography page only using HTML and Vanilla CSS <a href="https://github.com/Shrinivas-py/Photography-Page" target="_blank">[LINK]</a>
+                    </div>
+                </div>
+                <div class="vertical_2">
+                    <img src="simon.jpeg" class="image_top3">
+                    <div class="vertical_title2">
+                        Simon Says Game
+                    </div>
+                    <div class="vertical_desc2">
+                        I have created this offline game using HTML, Vanilla CSS & Javascript! <a href="https://github.com/Shrinivas-py/Simon-Says" target="_blank">[LINK]</a>
+                    </div>
+                </div>
+                <div class="vertical_2">
+                    <img src="spotiffy.webp" class="image_top3">
+                    <div class="vertical_title2">
+                        Spotify Clone
+                    </div>
+                    <div class="vertical_desc2">
+                        I have created this clone of Spotify website <a href="https://github.com/Shrinivas-py/Spotify-Clone" target="_blank">[LINK]</a>
+                    </div>
+                </div>
+                <div class="vertical_2">
+                    <img src="codsoft.jpeg" class="image_top3">
+                    <div class="vertical_title2">
+                        Calculator
+                    </div>
+                    <div class="vertical_desc2">
+                        I made this calculator using HTML, Vanilla CSS and JavaScript! <a href="https://github.com/Shrinivas-py/Calculator" target="_blank">[LINK]</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <h3>Shrinivas's Developer Portfolio</h3>
+            </div>
+            <div class="second">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/shrinivas-rj/"><img src="linkedin3.png" id="linkedin" target="_blank"></a></li>
+                    <li><a href="https://github.com/Shrinivas-py"><img src="25231.png" id="linkedin" target="_blank"></a></li>
+                    <li><a href="https://stackoverflow.com/users/26976841/shrinivas-r-j"><img src="stack-overflow.png" id="linkedin" target="_blank"></a></li>
+                    <li><a href="https://x.com/Learner_1001"><img src="twitter.png" id="linkedin" target="_blank"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_rights">
+            Copyright &#169; shrinivasportfolio.com | All Right Reserved 
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Enthusiatic Learner!', '&amp; Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
